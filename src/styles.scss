@@ -2,3 +2,10 @@
 body{
     font-family: "FaktSoft", Helvetica, Arial, sans-serif!important;
 }
+
+@media (max-width: 768px) {
+    html, body {
+    width: auto !important;
+    overflow-x: hidden !important;
+    }
+    }
