@@ -1,12 +1,12 @@
 {
-    "projectName": "mwd",
+    "projectName": "mwdweb",
     "version": "3.0",
     "frontend": "javascript",
     "javascript": {
         "framework": "angular",
         "config": {
             "SourceDir": "src",
-            "DistributionDir": "dist/mwd",
+            "DistributionDir": "dist",
             "BuildCommand": "npm.cmd run-script build",
             "StartCommand": "ng serve"
         }
