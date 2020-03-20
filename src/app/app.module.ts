@@ -10,6 +10,8 @@ import { UspComponent } from './components/usp/usp.component';
 import { PricingComponent } from './components/pricing/pricing.component';
 import { WebsiteComponent } from './components/website/website.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { MarketingComponent } from './components/marketing/marketing.component';
+import { DevelopmentComponent } from './components/development/development.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { ContactComponent } from './components/contact/contact.component';
     UspComponent,
     PricingComponent,
     WebsiteComponent,
-    ContactComponent
+    ContactComponent,
+    MarketingComponent,
+    DevelopmentComponent
   ],
   imports: [
     BrowserModule,
