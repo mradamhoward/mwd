@@ -1,7 +1,7 @@
 <section id='fb'>
 <h3 class="text-center">Facebook Ads & Pages</h3>
-
-<p>Facebook over the past decade or so has become extremely busy. There are over a billion people on Facebook. From this huge prospect base, you can be sure that there will be people interested in your services or products.
+<button class="btn btn-info cnt" (click)='fbClick()' >Learn More</button>
+<p *ngIf="fb">Facebook over the past decade or so has become extremely busy. There are over a billion people on Facebook. From this huge prospect base, you can be sure that there will be people interested in your services or products.
     Facebook ads are cost effective, targeted, filtered by demographics, location specific and extremely useful. You can start advertising on Facebook for very cheap and there's no limit to how much you can invest.
     You choose the amount you want to invest and Facebook gives you what you pay for; cost effective advertising solutions.
     There are many configurations for an advertising campaign on Facebook. You can choose setups to get more website traffic, page likes or app downloads. There is a solution for everybody.
@@ -14,14 +14,15 @@
 </section>
 <section id='sem'>
     <h3 class="text-center">Search Engine Marketing</h3>
-<p>Search engine marketing or sometimes known as PPC (Pay-Per-Click), is mainly Bing and Google's advertising solution on their search engine, to get at the top of the search results. Pay Per Click means literally, you pay for every prospect that clicks your search ad.
+    <button class="btn btn-info cnt" (click)='semClick()' >Learn More</button>
+<p *ngIf='sem'>Search engine marketing or sometimes known as PPC (Pay-Per-Click), is mainly Bing and Google's advertising solution on their search engine, to get at the top of the search results. Pay Per Click means literally, you pay for every prospect that clicks your search ad.
     Google Ads is the most popular and is very cost effective. Cost depends on competition for the keywords you would like to be searched for. For example, insurance would be a very costly keyword to advertise with as there are many insurance companies all doing the same thing.
     Bing Ads is the same as Google for the most part only, it's a little less popular. We recommend you do both, to get the maximum results. 
 </p>
 
-<h5>People wishing to advertise with search engine marketing are prompted to:</h5>
+<h5  *ngIf='sem'>People wishing to advertise with search engine marketing are prompted to:</h5>
 
-<ul class="list-group">
+<ul  *ngIf='sem' class="list-group">
     <li class="list-group-item">Conduct keyword research and select a set of keywords related to their website or product</li>
     <li class="list-group-item">Select a geographic location for the ad to be displayed within</li>
     <li class="list-group-item">Create a text-based ad to display in the search results</li>
