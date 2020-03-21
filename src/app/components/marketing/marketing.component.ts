@@ -8,14 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class MarketingComponent implements OnInit {
   private fb: boolean = false;
   private sem: boolean = false;
+  private email: boolean = false;
+  private lnkd: boolean = false;
+  private yt: boolean = false;
+  private tw: boolean = false;
   constructor() { }
 
   ngOnInit() {
   }
 
   fbClick(){
-    
-
     if(this.fb == true){
       this.fb = false;
     } else{
@@ -27,6 +29,38 @@ export class MarketingComponent implements OnInit {
       this.sem = false;
     } else{
       this.sem = true;
+    }
+  }
+
+  emailClick(){
+    if(this.email == true){
+      this.email = false;
+    } else{
+      this.email = true;
+    }
+  }
+
+  lnkdClick(){
+    if(this.lnkd == true){
+      this.lnkd = false;
+    } else{
+      this.lnkd = true;
+    }
+  }
+
+  ytClick(){
+    if(this.yt == true){
+      this.yt = false;
+    } else{
+      this.yt = true;
+    }
+  }
+
+  twClick(){
+    if(this.tw == true){
+      this.tw = false;
+    } else{
+      this.tw = true;
     }
   }
 }
