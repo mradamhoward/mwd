@@ -10,19 +10,66 @@ import 'rxjs/add/operator/share'
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit{
-
+  private number: number;
+  private number1: number;
+  private number2: number;
+  private number3: number;
   name = 'Angular';
   private stepper: Stepper;
 
-  constructor() {
-    
-   }
 
+
+    constructor() {
+  
+
+        // For auto mode
+         // Update on 5 seconds
+    }
+
+ 
 
   @HostListener('window:scroll', ['$event']) 
   scrollHandler($event) {
     AOS.refresh();
-  
+    this.number = 0;
+    setTimeout(() => {
+      
+    if(this.number == 0){
+        this.number = 8;
+     } else {
+      this.number = 8;
+     }}, 1
+    );
+
+    this.number1 = 0;
+    setTimeout(() => {
+      
+    if(this.number1 == 0){
+        this.number1 = 43;
+     } else {
+      this.number1 = 43;
+     }}, 1
+    );
+
+    this.number2 = 0;
+    setTimeout(() => {
+      
+    if(this.number2 == 0){
+        this.number2 = 130;
+     } else {
+      this.number2 = 130;
+     }}, 1
+    );
+
+    this.number3 = 0;
+    setTimeout(() => {
+      
+    if(this.number3 == 0){
+        this.number3 = 80;
+     } else {
+      this.number3 = 80;
+     }}, 1
+    );
   }
 
   
