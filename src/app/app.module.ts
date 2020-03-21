@@ -12,6 +12,7 @@ import { WebsiteComponent } from './components/website/website.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MarketingComponent } from './components/marketing/marketing.component';
 import { DevelopmentComponent } from './components/development/development.component';
+import { Ng2OdometerModule } from 'ng2-odometer';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { DevelopmentComponent } from './components/development/development.compo
   ],
   imports: [
     BrowserModule,
+    Ng2OdometerModule,
     AppRoutingModule
   ],
   providers: [],

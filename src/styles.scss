@@ -3,6 +3,8 @@ body{
     font-family: "FaktSoft", Helvetica, Arial, sans-serif!important;
 }
 
+@import '~bs-stepper/dist/css/bs-stepper.min.css';
+
 @media (max-width: 768px) {
     html, body {
     width: auto !important;
