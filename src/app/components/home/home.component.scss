@@ -21,11 +21,12 @@ section .section-title{
 	text-transform:uppercase;
 }
 #what-we-do{
-	background:#ffffff;
+	background: #e2e2e2;
 }
 #what-we-do .card{
 	padding: 1rem!important;
 	border: none;
+	height: 180px;
 	margin-bottom:1rem;
 	-webkit-transition: .5s all ease;
 	-moz-transition: .5s all ease;
