@@ -13,6 +13,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { MarketingComponent } from './components/marketing/marketing.component';
 import { DevelopmentComponent } from './components/development/development.component';
 import { Ng2OdometerModule } from 'ng2-odometer';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { Ng2OdometerModule } from 'ng2-odometer';
     WebsiteComponent,
     ContactComponent,
     MarketingComponent,
-    DevelopmentComponent
+    DevelopmentComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
