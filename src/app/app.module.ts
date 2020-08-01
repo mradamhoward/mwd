@@ -5,29 +5,25 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { HomeComponent } from './components/home/home.component';
-import { DigitalmarketingComponent } from './components/digitalmarketing/digitalmarketing.component';
-import { UspComponent } from './components/usp/usp.component';
-import { PricingComponent } from './components/pricing/pricing.component';
-import { WebsiteComponent } from './components/website/website.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MarketingComponent } from './components/marketing/marketing.component';
 import { DevelopmentComponent } from './components/development/development.component';
 import { Ng2OdometerModule } from 'ng2-odometer';
 import { AboutComponent } from './about/about.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    DigitalmarketingComponent,
-    UspComponent,
-    PricingComponent,
-    WebsiteComponent,
+   
+    
     ContactComponent,
     MarketingComponent,
     DevelopmentComponent,
-    AboutComponent
+    AboutComponent,
+    PortfolioComponent
   ],
   imports: [
     BrowserModule,

@@ -4,10 +4,8 @@ import { HomeComponent } from './components/home/home.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { MarketingComponent } from './components/marketing/marketing.component';
 import { DevelopmentComponent } from './components/development/development.component';
-import { PricingComponent } from './components/pricing/pricing.component';
-import { UspComponent } from './components/usp/usp.component';
-import { WebsiteComponent } from './components/website/website.component';
 import { AboutComponent} from './about/about.component'
+import { PortfolioComponent} from './portfolio/portfolio.component'
 
 
 const routes: Routes = [
@@ -15,10 +13,8 @@ const routes: Routes = [
   {path: 'contact', component: ContactComponent},
   {path: 'marketing', component: MarketingComponent},
   {path: 'development', component: DevelopmentComponent},
-  {path: 'pricing', component: PricingComponent},
-  {path: 'usp', component: UspComponent},
-  {path: 'website', component: WebsiteComponent},
   {path: 'about', component: AboutComponent},
+  {path: 'portfolio', component: PortfolioComponent},
 ];
 
 @NgModule({
