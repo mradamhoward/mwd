@@ -10,13 +10,15 @@
 .banner{
     width: 100%;
 }
-
+.h5{
+	color: white;
+}
 section{
 	padding: 60px 0;
 }
 section .section-title{
 	text-align:center;
-	color:#000565;
+	color:white;
 	margin-bottom:50px;
 	text-transform:uppercase;
 }
@@ -139,4 +141,82 @@ margin-top: 15px;
 	display: block;
 	margin:  auto;
 	width: 300px;
+}
+
+
+
+html,
+body,
+.bg-skew {
+  height: 100%;
+}
+
+body {
+  background: #222;
+  text-align: center;
+}
+
+.bg-skew {
+  background: #000fa8;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  -webkit-transform: skew(0deg, -10deg);
+  transform: skew(0deg, -10deg);
+  padding: 200px 0;
+  margin-top: 100px;
+}
+.mt-100{
+	margin-top: 100px;
+}
+.content1 {
+  width: 100%;
+  -webkit-transform: skew(0deg, 10deg);
+  transform: skew(0deg, 10deg);
+}
+
+
+
+
+
+
+footer a {
+  -webkit-transition: .3s all;
+  transition: .3s all;
+}
+
+
+
+
+
+.content1,
+footer {
+}
+
+.content1 {
+  margin: 0 auto;
+}
+
+
+
+
+
+
+footer {
+  padding-top: 300px;
+}
+
+footer a {
+  text-decoration: none;
+  color: tomato;
+  padding: 5px
+}
+
+footer a:hover {
+  background: tomato;
+  color: #fff;
+  border-radius: 3px;
+}
+
+.shadow {
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, .6);
 }
