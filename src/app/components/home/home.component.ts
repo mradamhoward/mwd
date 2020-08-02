@@ -35,9 +35,9 @@ export class HomeComponent implements OnInit{
     setTimeout(() => {
       
     if(this.number == 0){
-        this.number = 8;
+        this.number = 9;
      } else {
-      this.number = 8;
+      this.number = 9;
      }}, 1
     );
 
