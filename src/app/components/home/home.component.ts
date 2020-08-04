@@ -104,7 +104,7 @@ export class HomeComponent implements OnInit{
 this.myParams = {
       particles: {
           number: {
-              value: 150,
+              value: 110,
           },
           color: {
               value: '#000fa8'
