@@ -3,6 +3,8 @@ import * as AOS from 'aos';
 import { Observable, Observer } from 'rxjs';
 import Stepper from 'bs-stepper';
 import 'rxjs/add/operator/share'
+import particlesJS from 'particles.js'
+import {ViewChild, ElementRef} from '@angular/core';
 
 @Component({
   selector: 'app-home',
@@ -17,6 +19,14 @@ export class HomeComponent implements OnInit{
   name = 'Angular';
   private stepper: Stepper;
 
+  myStyle: object = {};
+    myParams: object = {
+     
+            
+    };
+    width: number = 100;
+    height: number = 100;
+
 
 
     constructor() {
@@ -26,7 +36,6 @@ export class HomeComponent implements OnInit{
          // Update on 5 seconds
     }
 
- 
 
   @HostListener('window:scroll', ['$event']) 
   scrollHandler($event) {
@@ -81,6 +90,30 @@ export class HomeComponent implements OnInit{
       linear: false,
       animation: true
     })
+
+    this.myStyle = {
+      'position': 'relative',
+      'width': '100%',
+      'height': '100%',
+      'top': 0,
+      'left': 0,
+      'right': 0,
+      'bottom': 0,
+  };
+
+this.myParams = {
+      particles: {
+          number: {
+              value: 200,
+          },
+          color: {
+              value: '#000fa8'
+          },
+          shape: {
+              type: 'circle',
+          },
+  }
+};
   }
 
   

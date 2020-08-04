@@ -1,8 +1,9 @@
 
-<div class="jumbotron aos-item" data-aos-mirror="true">
-		<h1 class="display-4 text-center mt50per text-white  op"  data-aos="fade-down" >Mup Web Design</h1>
-		<p class="text-center w op text-white" data-aos="zoom-in" data-aos-duration="3000">Professional, fast and affordable website design services in Cork and Ireland.  </p>
-		<button routerLink="/contact" class="btn btn-primary web op" data-aos="zoom-in-up" data-aos-duration="3000">Click here if you want a website</button>
+<div class="jumbotron aos-item" data-aos-mirror="true" #jumbo>
+		<particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
+		<h1 class="display-4 text-center mt50per text-white  op h1 "  data-aos="fade-down" >Mup Web Design</h1>
+		<p class="text-center w op text-white p" data-aos="zoom-in" data-aos-duration="3000">Professional, fast and affordable website design services in Cork and Ireland.  </p>
+		<button routerLink="/contact" class="btn btn-primary web btn-block" data-aos="zoom-in-up" data-aos-duration="3000">Click here if you want a website</button>
 </div>
 
 
@@ -274,12 +275,59 @@
 		</div>
 	</section>
 
+	<section id="testimonial" class="blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-12">
+						<h2>Testimonials</h2>
+					</div>
+					<div class="col-12">
+						<div id="testimonialCarousel" class="carousel slide" data-ride="carousel">
+							<!-- Slide Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#testimonialCarousel" data-slide-to="1"></li>
+								<li data-target="#testimonialCarousel" data-slide-to="2"></li>
+							</ol>
+							<div class="carousel-inner" role="listbox">
+								<!-- Slide 1 -->
+								<div class="carousel-item active">
+									<div class="carousel-content">
+										<!--<div class="client-img"><img src="/images/user-image-512x512.jpg" alt="Testimonial Slider"></div>-->
+										<h3 class="mt-5">Fintan Linehan <br><span>Waterford</span></h3>
+										<p class="col-md-8 offset-md-2">Working with Adam is a pleasure. He always goes above and beyond.</p>
+									</div>
+								</div>
+								<!-- Slide 2 -->
+								<div class="carousel-item">
+									<div class="carousel-content">
+										<!--<div class="client-img"><img src="/images/user-image-512x512.jpg" alt="Testimonial Slider"></div>-->
+										<h3  class="mt-5">Kevin Noonan <br><span>Cork</span></h3>
+										<p class="col-md-8 offset-md-2">Mup Web Design had everything I needed for my business. I'd have no hesitation in recommending the team.</p>
+									</div>
+								</div>
+								<!-- Slide 3 -->
+								<div class="carousel-item">
+									<div class="carousel-content">
+										<!--<div class="client-img"><img src="/images/user-image-512x512.jpg" alt="Testimonial Slider"></div>-->
+										<h3  class="mt-5">Eugene Aherne <br><span>Araglin</span></h3>
+										<p class="col-md-8 offset-md-2">Adam is very easy going and is very commited to his work. Looking forward to working with him again. </p>
+									</div>
+								</div>
+								<!-- Slider pre and next arrow -->
+								<a class="carousel-control-prev text-white" href="#testimonialCarousel" role="button" data-slide="prev">
+								<i class="fas fa-chevron-left"></i>
+								</a>
+								<a class="carousel-control-next text-white" href="#testimonialCarousel" role="button" data-slide="next">
+								<i class="fas fa-chevron-right"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 	
-	
-	
-
-
-
 	<h3 class="text-center mt-30">Our Numbers</h3>
 	<div class="row">
 
