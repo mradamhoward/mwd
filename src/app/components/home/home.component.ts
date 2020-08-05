@@ -19,6 +19,9 @@ export class HomeComponent implements OnInit{
   name = 'Angular';
   private stepper: Stepper;
 
+
+  @ViewChild('vide', {static: false}) input: ElementRef; 
+
   myStyle: object = {};
     myParams: object = {
      
@@ -83,6 +86,9 @@ export class HomeComponent implements OnInit{
 
   
   ngOnInit() {
+    this.input.nativeElement.play();
+
+
     AOS.init({
     });
 
