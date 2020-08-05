@@ -701,3 +701,37 @@ $viewport-thereshold: $hexagon-width + $hexagon-margin;
  background-color: 	#000fa8;
 }
 
+
+@media only screen and (max-width: 600px){
+	.vidwrapper{
+		margin-left: -8vw;
+		margin-right: -8vw;
+		margin-bottom: -10px;
+	}
+}
+
+@media only screen and (min-width: 600px){
+	
+.vidwrapper{
+	margin-left: -29vw;
+	margin-right: -29vw;
+	margin-bottom: -10px;
+	text-align: center;
+}
+
+}
+#lightsvideo{
+
+	width: 100vw;
+	height: auto;
+	margin: 0 auto;
+}
+
+.ib{
+	display: inline-block;
+	margin: 5px;
+  }
+
+  .bb{
+	color: #000565 !important;
+  }
