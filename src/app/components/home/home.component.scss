@@ -266,8 +266,8 @@ body {
 	height: 400px;	
 	background-color: black;
 	position: relative;
-	margin-left: -40vw;
-	margin-right: -40vw;
+	margin-left: -28vw;
+	margin-right: -28vw;
 	height: 97vh;
 	
 }
@@ -704,8 +704,8 @@ $viewport-thereshold: $hexagon-width + $hexagon-margin;
 
 @media only screen and (max-width: 600px){
 	.vidwrapper{
-		margin-left: -8vw;
-		margin-right: -8vw;
+		margin-left: -10vw;
+		margin-right: -10vw;
 		margin-bottom: -10px;
 	}
 }
