@@ -12,6 +12,8 @@ import { Ng2OdometerModule } from 'ng2-odometer';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ParticlesModule } from 'angular-particle';
+import { PrivacyComponent } from './components/privacy/privacy.component';
+import { TermsComponent } from './components/terms/terms.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ParticlesModule } from 'angular-particle';
     MarketingComponent,
     DevelopmentComponent,
     AboutComponent,
-    PortfolioComponent
+    PortfolioComponent,
+    PrivacyComponent,
+    TermsComponent
   ],
   imports: [
     BrowserModule,

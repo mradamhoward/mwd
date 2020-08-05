@@ -6,6 +6,9 @@ import { MarketingComponent } from './components/marketing/marketing.component';
 import { DevelopmentComponent } from './components/development/development.component';
 import { AboutComponent} from './about/about.component'
 import { PortfolioComponent} from './portfolio/portfolio.component'
+import { PrivacyComponent} from './components/privacy/privacy.component'
+import { TermsComponent} from './components/terms/terms.component'
+
 
 
 const routes: Routes = [
@@ -15,6 +18,8 @@ const routes: Routes = [
   {path: 'development', component: DevelopmentComponent},
   {path: 'about', component: AboutComponent},
   {path: 'portfolio', component: PortfolioComponent},
+  {path: 'privacy-policy', component: PrivacyComponent},
+  {path: 'terms', component: TermsComponent},
 ];
 
 @NgModule({
