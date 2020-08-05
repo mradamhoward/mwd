@@ -702,30 +702,7 @@ $viewport-thereshold: $hexagon-width + $hexagon-margin;
 }
 
 
-@media only screen and (max-width: 600px){
-	.vidwrapper{
-		margin-left: -12vw;
-		margin-right: -12vw;
-		margin-bottom: -10px;
-	}
-}
 
-@media only screen and (min-width: 600px){
-	
-.vidwrapper{
-	margin-left: -29vw;
-	margin-right: -29vw;
-	margin-bottom: -10px;
-	text-align: center;
-}
-
-}
-#lightsvideo{
-
-	width: 100%;
-	height: auto;
-	margin: 0 auto;
-}
 
 .ib{
 	display: inline-block;
