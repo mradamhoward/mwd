@@ -3,7 +3,7 @@ import * as AOS from 'aos';
 import { Observable, Observer } from 'rxjs';
 import Stepper from 'bs-stepper';
 import 'rxjs/add/operator/share'
-import particlesJS from 'particles.js'
+import particlesJS from 'particles.js';
 import {ViewChild, ElementRef} from '@angular/core';
 
 @Component({
@@ -20,7 +20,7 @@ export class HomeComponent implements OnInit{
   private stepper: Stepper;
 
 
-
+ 
 
   myStyle: object = {};
     myParams: object = {
@@ -30,15 +30,16 @@ export class HomeComponent implements OnInit{
     width: number = 100;
     height: number = 100;
 
+  
+
 
 
     constructor() {
   
 
-        // For auto mode
-         // Update on 5 seconds
     }
 
+   
 
   @HostListener('window:scroll', ['$event']) 
   scrollHandler($event) {

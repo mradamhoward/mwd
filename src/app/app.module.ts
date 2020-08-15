@@ -14,7 +14,9 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ParticlesModule } from 'angular-particle';
 import { PrivacyComponent } from './components/privacy/privacy.component';
 import { TermsComponent } from './components/terms/terms.component';
-
+import { ChartsModule } from 'ng2-charts';
+import { FormsModule } from '@angular/forms';
+import { ChartComponent } from './components/chart/chart.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,13 +30,16 @@ import { TermsComponent } from './components/terms/terms.component';
     AboutComponent,
     PortfolioComponent,
     PrivacyComponent,
-    TermsComponent
+    TermsComponent,
+    ChartComponent
   ],
   imports: [
     BrowserModule,
     Ng2OdometerModule,
     AppRoutingModule,
-    ParticlesModule
+    ParticlesModule,
+    ChartsModule,
+     FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
