@@ -20,6 +20,7 @@
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
     "angular-particle": "^1.0.4",
+    "animate.css": "^4.1.0",
     "aos": "^2.3.4",
     "aws-amplify": "^2.2.6",
     "aws-amplify-angular": "^4.1.7",
@@ -32,6 +33,7 @@
     "rxjs": "~6.4.0",
     "smartwizard": "^4.4.1",
     "tslib": "^1.10.0",
+    "wavify": "^1.0.0",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {

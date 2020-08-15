@@ -2,7 +2,7 @@
 <div class="jumbotron aos-item" data-aos-mirror="true" #jumbo>
 		<particles [params]="myParams" [style]="myStyle" [width]="width" [height]="height"></particles>
 		<div class="container">
-		<h1 class="display-4 text-center mt50per text-white  op h1 "  data-aos="fade-down" >Mup Web Design</h1>
+		<h1 class="display-4 text-center mt50per text-white  op h1 animate__animated animate__bounce"  >Mup Web Design</h1>
 		<p class="text-center w op text-white p" data-aos="zoom-in" data-aos-duration="3000">Professional, fast and affordable website design services in Cork and Ireland.  </p>
 		<button routerLink="/contact" class="btn btn-primary web calltoact op" data-aos="zoom-in-up" data-aos-duration="3000">Click here if you want a website</button>
 	</div>
@@ -23,7 +23,7 @@
 				<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
 					<div class="card">
 						<div class="card-block block-1">
-							<h3 class="card-title">Fast</h3>
+							<h3 class="card-title animate__animated ">Fast</h3>
 							<p class="card-text">We guarantee the website will be produced to a high quality and within a reasonable timeframe.</p>
 					
 						</div>
@@ -520,7 +520,10 @@
                         <input type="tel" class="form-control" name="phone" placeholder="Phone Number">
                         <input type="email" class="form-control" name="email" placeholder="Email Address">
                         <textarea name="msg" value="Message" class="form-control ta" placeholder="Message"></textarea>
-                        <button type="submit" class="btn btn-block btn-success">Send</button>
+                        <button type="submit" class="btn btn-block btn-success "[ngClass]="{
+							'animate__animated': scroller,
+							'animate__bounce' : scroller
+						  }">Send</button>
             </form>
         </div>
 
@@ -536,6 +539,8 @@
 	<li class="nav-item ib"><a href="https://www.linkedin.com/in/mradamhoward" class="nav-link text-small pb-0 d-sm-block bb"><i class="fab fa-linkedin-in fa-3x"></i> LinkedIn</a></li>
 	
   </ul>
+
+  
 
 	
 

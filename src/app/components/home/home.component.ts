@@ -18,7 +18,7 @@ export class HomeComponent implements OnInit{
   private number3: number;
   name = 'Angular';
   private stepper: Stepper;
-
+  private scroller: boolean = false;
 
  
 
@@ -43,6 +43,10 @@ export class HomeComponent implements OnInit{
 
   @HostListener('window:scroll', ['$event']) 
   scrollHandler($event) {
+this.scroller = false;
+this.scroller = true;
+
+
     AOS.refresh();
     this.number = 0;
     setTimeout(() => {
