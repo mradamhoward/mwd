@@ -41,14 +41,14 @@ export class HomeComponent implements OnInit{
 
    
 
-  @HostListener('window:scroll', ['$event']) 
-  scrollHandler($event) {
-this.scroller = false;
-this.scroller = true;
+    @HostListener('window:scroll', ['$event']) 
+    scrollHandler($event) {
+
 
 
     AOS.refresh();
     this.number = 0;
+    
     setTimeout(() => {
       
     if(this.number == 0){

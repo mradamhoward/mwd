@@ -1,4 +1,4 @@
-import { Component, Renderer2 } from '@angular/core';
+import { Component, Renderer2, HostListener } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -12,9 +12,8 @@ constructor(private renderer: Renderer2){
 
 }
 
-  
-}
 
- { 
+
+  
   
 } 
