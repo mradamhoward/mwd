@@ -1,5 +1,6 @@
 .cards{
     height: 50px;
+    margin-bottom: 5px;
 }
 
 .bg-dark{
@@ -60,26 +61,18 @@ h3{
     padding: 0 0;
 }
 
-ul.ulfollow li:nth-child(1) {
-    
-    width: 100px;
-display: inline-block;
 
-text-align: center;
-line-height: 30px;
-}
-ul.ulfollow li:nth-child(2) {
+ul.ulfollow li:nth-child(1) {
     width: 40px;
 display: inline-block;
-text-align: center;
+
 line-height: 30px;
 }
 
-ul.ulfollow li:nth-child(3) {
+ul.ulfollow li:nth-child(2) {
     width: 40px;
 display:inline-block;
 
-text-align: center;
 line-height: 30px;
 }
 
