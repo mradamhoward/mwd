@@ -114,13 +114,13 @@ export class HomeComponent implements OnInit{
 this.myParams = {
       particles: {
           number: {
-              value: 110,
+              value: 38,
           },
           color: {
               value: '#000fa8'
           },
           shape: {
-              type: 'circle',
+              type: 'polygon',
           },
   }
 };
