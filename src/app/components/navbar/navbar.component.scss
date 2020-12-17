@@ -15,9 +15,15 @@
     background: none;
     border: none;
     width: 100%;
+ 
   }
+
+
+  .br{ border-radius: 8px;
+  background-image: url("../../../assets/12.jpg"); background-size: 100% 40%; background-repeat: no-repeat; background-position: bottom;}
 .f{
     font-family: "FaktSoft", Helvetica, Arial, sans-serif!important;
+    font-size: 16pt;
 }  
 
 .logo{
@@ -27,6 +33,10 @@
 }
 .w{
     color: white;   
+}
+
+.bgb{
+  background-color: black;
 }
 
 .custom-toggler.navbar-toggler {
@@ -43,20 +53,34 @@
 
 
 .u{
-  color: #000565 !important;
+  color: aqua !important;
 }
 
 .bb{
-  color: #000565 !important;
+  color: aqua !important;
 }
 
 
 a.u:hover{
   color: #007bff !important;
-  text-decoration: underline;
+  
 }
 
 a.bb:hover{
   color: #007bff !important;
-  text-decoration: underline;
+ 
+}
+
+@media only screen and (max-width: 768px){
+  .space{
+    width: 100%;
+    height: 140px;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .space{
+    width: 100%;
+    height: 50px;
+  }
 }
