@@ -20,8 +20,9 @@
 
 
   .br{ border-radius: 8px;
-  background-image: url("../../../assets/12.jpg"); background-size: 100% 40%; background-repeat: no-repeat; background-position: bottom;}
-.f{
+  
+  }
+    .f{
     font-family: "FaktSoft", Helvetica, Arial, sans-serif!important;
     font-size: 16pt;
 }  
@@ -35,8 +36,32 @@
     color: white;   
 }
 
+.tri{
+    width: 10px;
+  height: 10px;
+  margin-bottom: 1px;
+  transform: rotate(45deg);
+  float: right;
+  position: relative;
+  right: 265px;
+  bottom: 5px;
+}
+
+@media only screen and (max-width: 768px){
+  .tri{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px){
+  .tri{
+    display: block; 
+  }
+}
+
+
 .bgb{
-  background-color: black;
+  background: #CCC;
 }
 
 .custom-toggler.navbar-toggler {
@@ -53,11 +78,11 @@
 
 
 .u{
-  color: aqua !important;
+  color: black !important;
 }
 
 .bb{
-  color: aqua !important;
+  color: black !important;
 }
 
 
