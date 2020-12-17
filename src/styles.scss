@@ -14,6 +14,31 @@ body{
     }
 }
 
+body {
+    background: linear-gradient(250deg, #e69f08, #8cb8f8, #0de246);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 17s ease infinite;
+    -moz-animation: AnimationName 17s ease infinite;
+    animation: AnimationName 17s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 4%}
+    50%{background-position:100% 97%}
+    100%{background-position:0% 4%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 4%}
+    50%{background-position:100% 97%}
+    100%{background-position:0% 4%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 4%}
+    50%{background-position:100% 97%}
+    100%{background-position:0% 4%}
+}
+
 html, body {
     width: auto !important;
     overflow-x: hidden !important;

@@ -6,6 +6,9 @@ import 'rxjs/add/operator/share'
 import particlesJS from 'particles.js';
 import {ViewChild, ElementRef} from '@angular/core';
 
+
+
+
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -146,5 +149,6 @@ this.myParams = {
     return false;
   }
 
+  
 
 }
