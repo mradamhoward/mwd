@@ -65,9 +65,9 @@ export class HomeComponent implements OnInit{
     setTimeout(() => {
       
     if(this.number1 == 0){
-        this.number1 = 43;
+        this.number1 = 45;
      } else {
-      this.number1 = 43;
+      this.number1 = 45;
      }}, 1
     );
 
